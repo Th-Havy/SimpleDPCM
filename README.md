@@ -21,6 +21,7 @@ Here is an example with a gray-scale image, where the error was quantized on 8 l
 For a color image, it must first be converted to a single matrix. It is best for this implementation to run the encoder-decoder separately on the 3 color channels (RGB), rather than concatenating the 3-channels into a 2D-matrix.
 
 Here is an example with a color image, where the error was quantized on 16 levels. Here only 3 \* 4 bits pixel would need to be transmitted (instead of 3 \* 8 bits).
+
 ![Original image](lena.png) ![reconstructed image](lena_16.png)
 
 ## Theorethical background
