@@ -8,7 +8,7 @@ The code is definetely not optimized but written as to be easily understood. Thi
 
 ## How to use the encoder-decoder
 
-This repository contains 3 MATLAB files: one for the encoder function,another for the decoder, as well as an [example script](example.m).
+This repository contains 3 MATLAB files: one for the encoder function,another for the decoder, as well as an [example script](matlab/example.m).
 
 The encoder-decoder can act on images stored as a matrix. the function `error = DPCM_encoder(image, error_quantization_levels)` can be used to compute the quantized errors that would be sent over the transmission channel. The second parameter defines the number of quantization levels for the error. The higher it is, the closer the reconstructed image will be to the original image; the smaller it is, the less information would need to be sent.
 
